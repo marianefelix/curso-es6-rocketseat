@@ -92,3 +92,26 @@ document.getElementById('novotodo').onclick = function () {
 minhaLista.mostraUsuario(); //nao precisa instaciar a classe 
 
 console.log(Matematica.soma(1, 2));
+"use strict";
+
+var array = [1, 3, 4, 5, 8, 9]; //percorre array
+
+var newArray = array.map(function (item, index) {
+  return item + index;
+});
+console.log(newArray); //percorre array e transforma em apenas uma informacao/numero
+
+var sum = array.reduce(function (total, next) {
+  return total + next;
+});
+console.log(sum); //filtra algum item
+
+var filter = array.filter(function (item) {
+  //precisa obrigatoriamente retornar true ou false
+  return item % 2 === 0;
+});
+console.log(filter); //encontra algum item no array
+
+var find = array.find(function (item) {
+  return item === 3;
+});
