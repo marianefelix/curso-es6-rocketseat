@@ -105,9 +105,9 @@ var sum = array.reduce(function (total, next) {
   return total + next;
 });
 console.log(sum); //filtra algum item
+//precisa obrigatoriamente retornar true ou false
 
 var filter = array.filter(function (item) {
-  //precisa obrigatoriamente retornar true ou false
   return item % 2 === 0;
 });
 console.log(filter); //encontra algum item no array
@@ -115,3 +115,4 @@ console.log(filter); //encontra algum item no array
 var find = array.find(function (item) {
   return item === 3;
 });
+console.log(find);
