@@ -40,3 +40,6 @@ console.log(arr3);
 const usuario1 = {...usuario, nome: 'Maria'};
 
 console.log(usuario1);
+
+//utilizando template literals
+console.log(`Meu nome é ${usuario.nome} e tenho ${usuario.idade} anos.`);

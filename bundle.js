@@ -172,4 +172,6 @@ var usuario1 = _objectSpread(_objectSpread({}, usuario), {}, {
   nome: 'Maria'
 });
 
-console.log(usuario1);
+console.log(usuario1); //utilizando template literals
+
+console.log("Meu nome \xE9 ".concat(usuario.nome, " e tenho ").concat(usuario.idade, " anos."));
