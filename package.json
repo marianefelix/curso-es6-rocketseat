@@ -8,9 +8,10 @@
   "dependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.10.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.10.4",
     "@babel/preset-env": "^7.10.4"
   },
   "scripts": {
-    "dev": "babel ./classes.js ./arrays.js -o ./bundle.js -w"
+    "dev": "babel ./classes.js ./arrays.js rest-spread.js -o ./bundle.js -w"
   }
 }
