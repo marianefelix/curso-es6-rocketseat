@@ -1,5 +1,5 @@
 # Curso de JavaScript ES6+
-Projeto realizado durante o curso de JavaScript ES6 da [Rocketseat](https://rocketseat.com.br/)
+Projeto realizado durante o curso de JavaScript ES6+ da [Rocketseat](https://rocketseat.com.br/)
 
 ### Sobre 
 Esse projeto está separado por módulos, de acordo com o curso. Em alguns deles têm códigos que exemplificam conceitos aprendidos durante as aulas e exercícios.
